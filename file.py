@@ -15,10 +15,14 @@ numbers = [2, 4, 28, 77, 60, 55, 21, 33, 44, 100]
 # print(len(numbers))
 # a = len(numbers)
 # print (a +1)
+squares = []
 numbers[3] = 28
 for number in numbers:
-    if number > 28:
+    if number >= 55:
+        print(number * 2 )
+    elif number > 28:
         print(number)
-
+        squares.append(number **2 )
     else :
         print("Hello")
+print(squares)
